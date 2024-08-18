@@ -4,12 +4,12 @@ const Button = () => {
     const [clicks, setClicks] = useState(0);
 
     const handleAddClick = () => { 
-        setClicks(clicks + 1); 
+        setClicks(clicks + 3); 
     };
 
     const handleSubtractClick = () => {
         if (clicks > 0) {
-            setClicks(clicks - 1);
+            setClicks(clicks - 3);
         }
     };
 

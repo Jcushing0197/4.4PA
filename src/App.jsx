@@ -15,11 +15,11 @@ function App() {
   return (
     <div className="App"> 
       <header className="App-header">
-        <h1>Simple Counter</h1>
+        <h1>3's Counter</h1>
         <Button /> 
         <TextField value={inputValue} onChange={handleChange} />
         <p>{inputValue}</p>
-        <p>Todo list </p>
+        <p>Justyn's To-do List: </p>
           <TodoList />
       </header>
     </div>
